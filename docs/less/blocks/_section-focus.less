@@ -1,0 +1,136 @@
+.section-focus{
+    padding-top: 70px;
+    padding-bottom: 30px;
+    position: relative;
+
+    overflow: hidden;
+    &::before{
+        content: "";
+        display: block;
+        width: 132px;
+        height: 132px;
+        position: absolute;
+        top: -110px;
+        right: 50%;
+        background-color: #a4eecb;
+        transform: translateX(50%) rotate(45deg);
+    }
+
+    @media (min-width:768px){
+        padding-top: 59px;
+        padding-bottom: 0;
+
+        &::before{
+            display: none;
+        }
+    }
+
+    @media (min-width:1200px){
+        padding-top: 80px;
+        &::before{
+        content: "";
+        display: block;
+        width: 132px;
+        height: 132px;
+        position: absolute;
+        top: 50%;
+        right: -66px;
+        background-color: #a4eecb;
+        transform: translate(0, -50%) rotate(45deg);
+        }
+    }
+}
+
+.section-focus__content{
+    max-width: 470px;
+    text-align: center;
+    padding-bottom: 0px;
+    
+    @media (min-width:768px){
+        text-align: left;
+        max-width: 383px;
+        padding-bottom: 80px;
+    }
+    
+    @media (min-width:1200px){
+        max-width: 470px;
+        padding-bottom: 130px;
+        margin-left: auto;
+    }
+}
+
+.section-focus__title{
+    margin-bottom: 40px;
+
+    @media (min-width:768px){
+        margin-bottom: 45px;
+    }
+
+    @media (min-width:1200px){
+        margin-bottom: 45px;
+    }
+}
+
+.section-focus__header{
+    margin-bottom: 40px;
+
+    @media (min-width:768px){
+        margin-bottom: 20px;
+    }
+
+    @media (min-width:1200px){
+        margin-bottom: 50px;
+    }
+}
+
+.section-focus__img-wrapper{
+    position: relative;
+    max-width: 470px;
+    @media (min-width:768px){
+        max-width: unset;
+        width: 287px;
+        height: 505px;
+    }
+
+    @media (min-width:1200px){
+        height: 731px;
+        width: 470px;
+    }
+}
+
+.section-focus__img{
+    position: static;
+    max-width: 100%;
+    transform: translateX(-4%);
+
+    @media (min-width:768px){
+        transform: translateX(0%);
+        position: absolute;
+        top: 0;
+        right: 0;
+        max-width: 240%;
+    }
+
+    @media (min-width:1200px){
+        position: absolute;
+        top: 0;
+        right: 0;
+
+        height: 731px;
+    }
+}
+
+.section-focus__row{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+
+    @media (min-width:768px){
+        flex-direction: row;
+    }
+
+    @media (min-width:1200px){
+        align-items: center;
+    }
+}
