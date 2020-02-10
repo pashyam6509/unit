@@ -1,4 +1,4 @@
-# Шаблон для сайта портфолио 
+# Шаблон для сайта Юнит 
 
 Дизайн (PSD) и верстка (HTML, LESS, jQuery). 
 Сделан во время курса обучения верстки сайтов в WebCademy.ru 
@@ -9,12 +9,12 @@
 - Карусель OwlCarousel
 - Контактная форма
 
-[**Онлайн демо**](https://pashyam6509.github.io/forest-travel/)
+[**Онлайн демо**](https://pashyam6509.github.io/unit/)
 
 ### Тестировать локально
 
 ```
-git clone https://github.com/pashyam6509/forest-travel.git
+git clone https://github.com/pashyam6509/unit.git
 ```
 
 Открыть index.html
